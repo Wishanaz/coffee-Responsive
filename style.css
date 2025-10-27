@@ -1,0 +1,139 @@
+@font-face {
+  font-family: aveReg;
+  src: url(./assets/avir.otf);
+}
+@font-face {
+  font-family: aveBold;
+  src: url(./assets/avirBold.otf);
+}
+@font-face {
+  font-family: meta;
+  src: url(./assets/meta-normal.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  font-family: aveReg;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  background-color: #1a1a1a;
+}
+nav .nav1 {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  justify-content: space-between;
+  color: white;
+}
+nav .nav1 h2 {
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+  font-size: 2rem;
+}
+nav .nav1 .links1,
+nav .nav1 .links2 {
+  display: none;
+}
+nav .nav2 {
+  background-color: #000000;
+}
+nav .nav2 button {
+  display: none;
+}
+nav .nav2 p {
+  padding: 1rem 2rem;
+  font-family: aveReg;
+  color: white;
+  text-align: center;
+}
+nav .nav2 .input {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  nav .nav1 h2 {
+    font-size: 2.2rem;
+  }
+  nav .nav2 p {
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 900px) {
+  nav .nav1 {
+    order: 2;
+    color: black;
+    background-color: white;
+    border-bottom: 1px solid grey;
+  }
+  nav .nav1 .menu {
+    display: none;
+  }
+  nav .nav1 .links1,
+  nav .nav1 .links2 {
+    width: 100%;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  nav .nav1 h2 {
+    font-size: 2.5rem;
+    padding: 0 6rem;
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 3px;
+  }
+  nav .nav2 {
+    order: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  nav .nav2 button {
+    display: block;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 0 1rem;
+  }
+  nav .nav2 .input {
+    display: block;
+    display: flex;
+    align-items: center;
+  }
+  nav .nav2 .input input {
+    background-color: #000000;
+    padding: 1.1rem;
+    border: 1px solid white;
+    border-right: none;
+    font-size: 1rem;
+  }
+  nav .nav2 .input input::-moz-placeholder {
+    background-color: #000000;
+    color: white;
+  }
+  nav .nav2 .input input::placeholder {
+    background-color: #000000;
+    color: white;
+  }
+  nav .nav2 .input .searchicon {
+    color: white;
+    border: 1px solid white;
+    padding: 1rem;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -134,7 +134,7 @@ main {
           font-size: 1rem;
         }
         button {
-          width: 40%;
+          width: 45%;
           padding: 1rem;
           align-self: center;
           font-size: 1.2rem;
@@ -180,6 +180,71 @@ main {
         object-fit: cover;
       }
     }
+  }
+  section.view3{
+    .top{
+      font-family: meta;
+      text-align: start;
+      padding: 2rem;
+      @include flexCol(1rem);
+      span{
+        font-size: 1rem;
+      }
+      h3{
+        font-size: 1.5rem;
+      }
+      p{
+        font-size: 1rem;
+      }
+      .laptop{
+        display: none;
+      }
+    }
+    .bottom {
+      .new-arrivals{
+        img{
+          padding: 2rem;
+          width: 100%;
+          object-fit: cover;
+        }
+        .arrival1{
+          position: relative;  
+            .text{
+              position: absolute;
+              @include flexCol(0.5rem);
+              bottom: 10%;
+              left: 34%;
+            }
+        }
+        .arrival2{
+          position: relative;  
+            .text{
+              position: absolute;
+              @include flexCol(0.5rem);
+              bottom: 10%;
+              left: 34%;
+            }
+        }
+        .arrival3{
+          position: relative;  
+            .text{
+              position: absolute;
+              @include flexCol(0.5rem);
+              bottom: 10%;
+              left: 34%;
+            }
+        }
+        .arrival4{
+          position: relative;  
+            .text{
+              position: absolute;
+              @include flexCol(0.5rem);
+              bottom: 10%;
+              left: 34%;
+            }
+        }
+      }
+  }
   }
 }
 
@@ -309,7 +374,29 @@ main {
       .top,.bottom{
         width: 50%;
       }
-      
+
+    }
+    section.view3{
+      .top{
+        span{
+          font-size: 1.2rem;
+          color: #2d2a2ab5;
+        }
+        h3{
+          font-size: 2.3rem;
+        }
+        .change{
+          display: none;
+        }
+        .laptop{
+          display: initial;
+          width: 40%;
+        }
+      }
+      .new-arrivals{
+        display: flex;
+
+      }
     }
   }
 }

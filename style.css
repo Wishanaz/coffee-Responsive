@@ -126,7 +126,7 @@ main section.view1 .bottom .content p {
   font-size: 1rem;
 }
 main section.view1 .bottom .content button {
-  width: 40%;
+  width: 45%;
   padding: 1rem;
   align-self: center;
   font-size: 1.2rem;
@@ -172,6 +172,76 @@ main section.view2 .bottom img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+main section.view3 .top {
+  font-family: meta;
+  text-align: start;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main section.view3 .top span {
+  font-size: 1rem;
+}
+main section.view3 .top h3 {
+  font-size: 1.5rem;
+}
+main section.view3 .top p {
+  font-size: 1rem;
+}
+main section.view3 .top .laptop {
+  display: none;
+}
+main section.view3 .bottom .new-arrivals img {
+  padding: 2rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main section.view3 .bottom .new-arrivals .arrival1 {
+  position: relative;
+}
+main section.view3 .bottom .new-arrivals .arrival1 .text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  bottom: 10%;
+  left: 34%;
+}
+main section.view3 .bottom .new-arrivals .arrival2 {
+  position: relative;
+}
+main section.view3 .bottom .new-arrivals .arrival2 .text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  bottom: 10%;
+  left: 34%;
+}
+main section.view3 .bottom .new-arrivals .arrival3 {
+  position: relative;
+}
+main section.view3 .bottom .new-arrivals .arrival3 .text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  bottom: 10%;
+  left: 34%;
+}
+main section.view3 .bottom .new-arrivals .arrival4 {
+  position: relative;
+}
+main section.view3 .bottom .new-arrivals .arrival4 .text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  bottom: 10%;
+  left: 34%;
 }
 
 @media (min-width: 600px) {
@@ -289,5 +359,22 @@ main section.view2 .bottom img {
   }
   main section.view2 .top, main section.view2 .bottom {
     width: 50%;
+  }
+  main section.view3 .top span {
+    font-size: 1.2rem;
+    color: rgba(45, 42, 42, 0.7098039216);
+  }
+  main section.view3 .top h3 {
+    font-size: 2.3rem;
+  }
+  main section.view3 .top .change {
+    display: none;
+  }
+  main section.view3 .top .laptop {
+    display: initial;
+    width: 40%;
+  }
+  main section.view3 .new-arrivals {
+    display: flex;
   }
 }/*# sourceMappingURL=style.css.map */

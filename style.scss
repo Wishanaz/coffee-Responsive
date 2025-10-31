@@ -321,9 +321,9 @@ main {
           display: flex;               
           align-items: center;         
           justify-content: center;     
-          width: 10%;
-          flex: 1 1 20%; 
-          padding: 6rem;
+          width: 50%; // ✅ 5 per row on laptop
+          padding: 4rem 0;
+          
           font-weight: 600;
           white-space: nowrap;
         }

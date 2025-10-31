@@ -113,7 +113,7 @@ main section.view1 .bottom .content {
   gap: 1rem;
   padding: 2rem 1rem;
   position: absolute;
-  top: 32%;
+  top: 40%;
   font-family: meta;
 }
 main section.view1 .bottom .content span {
@@ -208,7 +208,7 @@ main section.view3 .bottom .new-arrivals .arrival1 .text {
   flex-direction: column;
   gap: 0.5rem;
   bottom: 10%;
-  left: 34%;
+  left: 35%;
 }
 main section.view3 .bottom .new-arrivals .arrival2 {
   position: relative;
@@ -242,6 +242,50 @@ main section.view3 .bottom .new-arrivals .arrival4 .text {
   gap: 0.5rem;
   bottom: 10%;
   left: 34%;
+}
+main section.view4 {
+  width: 100%;
+  padding: 1rem;
+  position: relative;
+}
+main section.view4 .testimonial-content {
+  font-family: meta;
+  padding: 7rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main section.view4 .testimonial-content i {
+  font-size: 5rem;
+}
+main section.view4 .testimonial-content h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+main section.view4 .testimonial-content .paraTestimonial {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+main section.view4 .testimonial-content .foodname, main section.view4 .testimonial-content .clientname {
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.674);
+}
+main section.view4 .testimonial-content .leftright {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding: 0.5rem;
+}
+main section.view4 .testimonial-content .leftright i {
+  color: #d5d1d1;
+  font-size: 1.5rem;
+  border: 1px solid rgb(126, 123, 123);
+  border-radius: 3rem;
+  padding: 0.5rem;
+  background-color: rgb(71, 69, 69);
 }
 
 @media (min-width: 600px) {
@@ -376,5 +420,16 @@ main section.view3 .bottom .new-arrivals .arrival4 .text {
   }
   main section.view3 .new-arrivals {
     display: flex;
+  }
+  main section.view4 .testimonial-content i {
+    font-family: meta;
+  }
+  main section.view4 .testimonial-content h2 {
+    padding: 0 15rem;
+    font-size: 2.5rem;
+  }
+  main section.view4 .testimonial-content .paraTestimonial {
+    padding: 0 15rem;
+    font-size: 1.2rem;
   }
 }/*# sourceMappingURL=style.css.map */

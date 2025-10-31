@@ -122,7 +122,7 @@ main {
         @include flexCol(1rem);
         padding: 2rem 1rem;
         position: absolute;
-        top: 32%;
+        top: 40%;
         font-family: meta;
         span {
           font-size: 1rem;
@@ -213,7 +213,7 @@ main {
               position: absolute;
               @include flexCol(0.5rem);
               bottom: 10%;
-              left: 34%;
+              left: 35%;
             }
         }
         .arrival2{
@@ -245,6 +245,48 @@ main {
         }
       }
   }
+  }
+  section.view4{
+    width: 100%;
+    padding: 1rem;
+    position: relative;
+      .testimonial-content{
+          font-family: meta;
+        padding: 7rem 3rem;
+        @include flexCol(1rem);
+          i{
+            font-size: 5rem;
+          }
+          h2{
+            font-size: 2rem;
+            font-weight: 500;
+          }
+          .paraTestimonial{
+            font-size: 1.2rem;
+            line-height: 1.8rem;
+          }
+          .foodname,.clientname{
+            font-size: 1.4rem;
+            color: rgba(0, 0, 0, 0.674);
+          }
+          .leftright {
+          position: absolute;
+          width: 100%;
+          top: 50%;
+          display: flex;
+          justify-content: space-between;
+          align-self: center;
+          padding: 0.5rem;
+            i {
+          color: #d5d1d1;
+          font-size: 1.5rem;
+          border: 1px solid rgb(126, 123, 123);
+          border-radius: 3rem;
+          padding: 0.5rem;
+          background-color: rgb(71, 69, 69);
+          }
+          }
+      }
   }
 }
 
@@ -396,6 +438,21 @@ main {
       .new-arrivals{
         display: flex;
 
+      }
+    }
+    section.view4{
+      .testimonial-content{
+        i{
+          font-family: meta;
+        }
+        h2{
+          padding: 0 15rem;
+          font-size: 2.5rem;
+        }
+        .paraTestimonial{
+          padding: 0 15rem;
+          font-size: 1.2rem;
+        }
       }
     }
   }

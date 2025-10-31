@@ -288,6 +288,78 @@ main {
           }
       }
   }
+  section.view5{
+    width: 100%;
+    padding: 1rem ;
+    .tastebycolor{
+      padding: 5rem 0;
+      background-color: #F6F2EA;
+      // border: 2px solid red;
+      .content{
+          width: 100%;
+          padding: 4rem;
+          font-family: meta;
+          @include flexCol(1.2rem);
+            span{
+              font-size: 1rem;
+            }
+            h2{
+              font-size: 2rem;
+              padding-bottom: 1rem;
+            }
+            p{
+              font-size: 1rem;
+            }
+        }
+    }
+    .bottom{
+      @include flexRow(0rem);
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+        .colorbox{
+          display: flex;               
+          align-items: center;         
+          justify-content: center;     
+          width: 10%;
+          flex: 1 1 20%; 
+          padding: 6rem;
+          font-weight: 600;
+          white-space: nowrap;
+        }
+        
+    }
+    .colorbox:nth-child(1) { 
+      background-color: #DFE9D2; 
+    }
+    .colorbox:nth-child(2) { 
+      background-color: #FFFCE2; 
+    } 
+    .colorbox:nth-child(3) { 
+      background-color: #FEEFDD; 
+    } 
+    .colorbox:nth-child(4) { 
+      background-color: #FCDEE5; 
+    }  
+    .colorbox:nth-child(5) { 
+      background-color: #FFE8F0; 
+    }  
+    .colorbox:nth-child(6) { 
+      background-color: #F9E8FF; 
+    }  
+    .colorbox:nth-child(7) { 
+      background-color: #EFF4F7; 
+    }  
+    .colorbox:nth-child(8) { 
+      background-color: #FBE8D8; 
+    }  
+    .colorbox:nth-child(9) { 
+      background-color: #EBDDC4; 
+    } 
+    .colorbox:nth-child(10) { 
+      background-color: #EBE8E3; 
+    } 
+  }
 }
 
 // ***************** TABLET VIEW *****************
@@ -454,6 +526,26 @@ main {
           font-size: 1.2rem;
         }
       }
+    }
+    section.view5{
+      display: flex;
+      flex-direction: row;
+      padding: 5rem 2rem;
+        .tastebycolor{
+          width: 30%;
+            .content{
+              h2{
+                font-family: 'Times New Roman', Times, serif;
+              }
+            }
+        }
+        .bottom{
+          width: 80%;
+            .colorbox{
+              padding: 2rem;
+              font-weight: 400;
+            }
+        }
     }
   }
 }

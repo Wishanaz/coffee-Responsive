@@ -287,6 +287,80 @@ main section.view4 .testimonial-content .leftright i {
   padding: 0.5rem;
   background-color: rgb(71, 69, 69);
 }
+main section.view5 {
+  width: 100%;
+  padding: 1rem;
+}
+main section.view5 .tastebycolor {
+  padding: 5rem 0;
+  background-color: #F6F2EA;
+}
+main section.view5 .tastebycolor .content {
+  width: 100%;
+  padding: 4rem;
+  font-family: meta;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+main section.view5 .tastebycolor .content span {
+  font-size: 1rem;
+}
+main section.view5 .tastebycolor .content h2 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+main section.view5 .tastebycolor .content p {
+  font-size: 1rem;
+}
+main section.view5 .bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+main section.view5 .bottom .colorbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  flex: 1 1 20%;
+  padding: 6rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+main section.view5 .colorbox:nth-child(1) {
+  background-color: #DFE9D2;
+}
+main section.view5 .colorbox:nth-child(2) {
+  background-color: #FFFCE2;
+}
+main section.view5 .colorbox:nth-child(3) {
+  background-color: #FEEFDD;
+}
+main section.view5 .colorbox:nth-child(4) {
+  background-color: #FCDEE5;
+}
+main section.view5 .colorbox:nth-child(5) {
+  background-color: #FFE8F0;
+}
+main section.view5 .colorbox:nth-child(6) {
+  background-color: #F9E8FF;
+}
+main section.view5 .colorbox:nth-child(7) {
+  background-color: #EFF4F7;
+}
+main section.view5 .colorbox:nth-child(8) {
+  background-color: #FBE8D8;
+}
+main section.view5 .colorbox:nth-child(9) {
+  background-color: #EBDDC4;
+}
+main section.view5 .colorbox:nth-child(10) {
+  background-color: #EBE8E3;
+}
 
 @media (min-width: 600px) {
   nav .nav1 h2 {
@@ -431,5 +505,23 @@ main section.view4 .testimonial-content .leftright i {
   main section.view4 .testimonial-content .paraTestimonial {
     padding: 0 15rem;
     font-size: 1.2rem;
+  }
+  main section.view5 {
+    display: flex;
+    flex-direction: row;
+    padding: 5rem 2rem;
+  }
+  main section.view5 .tastebycolor {
+    width: 30%;
+  }
+  main section.view5 .tastebycolor .content h2 {
+    font-family: "Times New Roman", Times, serif;
+  }
+  main section.view5 .bottom {
+    width: 80%;
+  }
+  main section.view5 .bottom .colorbox {
+    padding: 2rem;
+    font-weight: 400;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -321,9 +321,8 @@ main {
           display: flex;               
           align-items: center;         
           justify-content: center;     
-          width: 50%; // ✅ 5 per row on laptop
+          width: 50%; 
           padding: 4rem 0;
-          
           font-weight: 600;
           white-space: nowrap;
         }
@@ -359,6 +358,56 @@ main {
     .colorbox:nth-child(10) { 
       background-color: #EBE8E3; 
     } 
+  }
+  section.view6{
+    background-color: #FCFBF9;
+    width: 100%;
+    padding: 1rem;
+      .top{
+        width: 100%;
+        padding: 2rem;
+        font-family: meta;
+          img{
+            width: 10%;
+            object-fit: cover;
+          }
+          h2{
+            font-size: 2rem;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 1rem 0;
+
+          }
+          p{
+            font-size: 1rem;
+            
+          }
+      }
+      .bottom{
+        
+        display: grid;
+        width: 100%;
+        
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:  "img1 img1"
+                              "img1 img1"
+                              "img2 img3"
+                              "img4 img5"
+                              "img6 img7";
+        gap: 0.5rem;
+        img{
+          width: 100%;
+          object-fit: cover;
+          display: block;
+          aspect-ratio: 1 / 1;
+        }
+        .img1 { grid-area: img1; }
+        .img2 { grid-area: img2; }
+        .img3 { grid-area: img3; }
+        .img4 { grid-area: img4; }
+        .img5 { grid-area: img5; }
+        .img6 { grid-area: img6; }
+        .img7 { grid-area: img7; }
+      }
   }
 }
 
@@ -544,8 +593,31 @@ main {
             .colorbox{
               padding: 2rem;
               font-weight: 400;
+              width: 20%;
             }
         }
+    }
+    section.view6{
+      display: flex;
+      flex-direction: row;
+      padding: 2rem 0;
+      .top{
+        width: 30%;
+        text-align: start;
+          .text{
+            img{
+              padding-bottom: 2rem;
+            }
+          }
+      }
+      .bottom{
+        width: 70%;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-areas: "img1 img1 img2 img3 img4"
+                              "img1 img1 img5 img6 img7";
+        padding: 3rem 1rem;  
+      }
+
     }
   }
 }

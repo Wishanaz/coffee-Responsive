@@ -418,6 +418,44 @@ main section.view6 .bottom .img6 {
 main section.view6 .bottom .img7 {
   grid-area: img7;
 }
+main footer {
+  width: 100%;
+  padding: 1rem;
+  padding-top: 6rem;
+}
+main footer .subscribe {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+main footer .subscribe p {
+  font-family: meta;
+  font-size: 1rem;
+  padding: 1rem;
+}
+main footer .text {
+  font-family: meta;
+  padding: 2rem 0;
+  font-size: 1rem;
+}
+main footer .text .icons {
+  padding: 2rem 0;
+}
+main footer .text .icons i {
+  font-size: 1.2rem;
+}
+main footer .bottom h5 {
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+  font-family: "Times New Roman", Times, serif;
+}
+main footer .bottom p {
+  font-family: meta;
+  font-size: 1.5rem;
+}
 
 @media (min-width: 600px) {
   nav .nav1 h2 {
@@ -599,5 +637,26 @@ main section.view6 .bottom .img7 {
     grid-template-columns: repeat(5, 1fr);
     grid-template-areas: "img1 img1 img2 img3 img4" "img1 img1 img5 img6 img7";
     padding: 3rem 1rem;
+  }
+  main footer {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    justify-content: center;
+  }
+  main footer .subscribe {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  main footer .text {
+    display: flex;
+    justify-content: space-between;
+  }
+  main footer .bottom {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
   }
 }/*# sourceMappingURL=style.css.map */
